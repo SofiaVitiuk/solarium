@@ -61,9 +61,21 @@ letter-spacing: -0.35px;
 text-transform: uppercase;
 }
 
-.header-link{
-
+.header-link:hower,
+.heder-link:focus{
+    color: var(--active-color);
 }
+
+
+.hraderlink::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: var(--active-color);
+    
+}
+
 
 .header-button{
 color: var(--btn-lxn);
