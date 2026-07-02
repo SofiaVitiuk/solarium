@@ -3,14 +3,25 @@ ul{
     margin: 0;
     padding: 0;
 }
+
+
 a{
     text-decoration: none;
 }
+
+
 img{
-    width: 100px;
+    width: 100%;
     display: block;
 }
-h1,h2,h3,p{
+
+
+h1,h2,h3,p, blockquote{
     margin: 0;
     
+}
+
+
+button{
+    border: none;
 }
