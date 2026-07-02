@@ -41,7 +41,7 @@ body{
 }
 
 
-.heder-logo{
+.header-logo{
 color: var(--title-color);
 font-size: 24px;
 font-weight: 900;
@@ -68,13 +68,13 @@ letter-spacing: -0.35px;
 text-transform: uppercase;
 }
 
-.header-link:hower,
+.header-link:hover,
 .heder-link:focus{
     color: var(--active-color);
 }
 
 
-.hraderlink::after{
+.headerlink::after{
     content: "";
     display: block;
     width: 100%;
