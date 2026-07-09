@@ -691,3 +691,126 @@ line-height: 1.42;
     display: flex;
     justify-content: center;
 }
+
+.join{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.join .container{
+    border-radius: 48px;
+border-color: linear-gradient(135deg, #8D4A00 0%, #7C4000 100%);
+padding-left: 80px;
+padding-right: 80px;
+padding-top: 80px;
+padding-bottom: 86px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.join-title{
+    width: 456.0px;
+align-self: stretch;
+color: #2D2F2F;
+font-family: "Space Grotesk";
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 1;
+letter-spacing: -3px;
+margin-bottom: 24px;
+}
+
+.join-text{
+    width: 456.0px;
+align-self: stretch;
+color: #5A5C5C;
+font-family: "Be Vietnam Pro";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.25px;
+margin-bottom: 24px;
+}
+
+.join-list{
+    display: flex;
+
+}
+
+.join-icon{
+    width: 36.0px;
+height: 36.0px;
+}
+
+.join-item{
+    width: 48.0px;
+height: 48.0px;
+border-radius: 50%;
+justify-content: center;
+display: flex;
+align-items: center;
+border: 2px solid #FE973C;
+}
+
+.join-item:nth-child(2){
+    transform: translateX(-10px);
+    background-color: #fff;
+}
+
+.join-item:nth-child(3){
+    transform: translateX(-20px);
+    background-color: #fff;
+}
+
+.join-box{
+    display: flex;
+    align-items: center;
+    gap: inherit;
+}
+
+.join-members{
+color: #5A5C5C;
+font-family: "Be Vietnam Pro";
+font-size: 14px;
+font-style: normal;
+font-weight: 1.42;
+line-height: 20px;
+width: 118.6px;
+}
+
+.join-form{
+    width: 456.0px;
+
+}
+
+.join-label{
+    display: block;
+    color: #8c9090;
+}
+
+.join-input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgba(133, 132, 132, 0.512);
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.join-button{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.join-desk{
+    text-align: center;
+    color: #8c9090;
+}
