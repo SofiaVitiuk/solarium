@@ -72,7 +72,7 @@ body {
   color: var(--active-color);
 }
 
-.headerlink::after {
+.header-link::after {
   content: "";
   display: block;
   width: 100%;
@@ -207,13 +207,6 @@ body {
 .hero-elem:last-child {
   position: absolute;
   bottom: 158px;
-  left: -100px;
-  transform: rotate(-6deg);
-}
-
-.hero-elem:last-child {
-  position: absolute;
-  bottom: -150px;
   left: -100px;
   transform: rotate(-6deg);
 }
