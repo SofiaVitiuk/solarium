@@ -204,11 +204,11 @@ body {
   transform: rotate(3deg);
 }
 
-.hero-elem:last-child {
-  position: absolute;
-  bottom: 158px;
-  left: -100px;
-  transform: rotate(-6deg);
+.hero-elem:last-child{
+    position: absolute;
+    bottom: -150px;
+    left: -100px;
+    transform: rotate(-6deg);
 }
 
 /* advantages */
@@ -276,9 +276,6 @@ body {
   height: 113px;
   width: 8px;
   background-color: var(--active-color);
-}
-
-.advantages-comment {
 }
 
 .advantages-list {
